@@ -1,0 +1,36 @@
+div{
+	background-color: black;
+	padding-top: 2%;
+	color: white;
+}
+
+@font-face{
+	font-family: 'Codelight';
+	src: url('font/codelight.otf');
+}
+
+#logo{
+	font-family: 'Codelight';
+	font-size: 100px;
+	padding: 2%;
+	float: left;
+}
+
+#nav{
+	font-family: Verdana;
+	float: right;
+}
+
+#nav li{
+	display: inline;
+	list-style: none;
+	padding: 15px;
+	font-size: 50px;
+}
+
+#slideshow{
+	margin-top: 5%;
+	clear: left;
+	height: 20%;
+	width: auto;
+}
